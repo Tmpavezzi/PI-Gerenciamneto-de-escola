@@ -1,1 +1,0 @@
-# PI-Gerenciamneto-de-escola
