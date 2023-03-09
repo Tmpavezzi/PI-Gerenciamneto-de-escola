@@ -1,6 +1,6 @@
-# meu-primeiro-projeto
-
 # Tema: Gerenciamento de Escola
+
+[PROJETO INTEGRADOR III - Turma B]
 
 # Integrantes: 
 - Barbara Barbosa
