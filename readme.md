@@ -17,5 +17,12 @@
 - Documentações de informações referente a cada funcionário;
 - Grade curricular;
 
+# Requisitos Funcionais:
+
+# Requisitos não Funcionais:
+
+- Sistema só funcionrá no Windows;
+-
+
 # Diagrama de entidades
 ![imagem diagrama de entidades](/docs/diagrama-de-entidades.PNG).
