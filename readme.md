@@ -19,6 +19,8 @@
 
 # Requisitos Funcionais:
 
+- O sistema vai realizar o cadastro dos funcionários e dos alunos que desejam procurar a instituição para cursar/trabalhar
+
 # Requisitos não Funcionais:
 
 - Sistema só funcionrá no Windows;
