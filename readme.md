@@ -15,7 +15,7 @@
 - Divisão de alunos por turmas e período;
 - Divisão de funcionários por funções;
 - Documentações de informações referente a cada funcionário;
-- Grade corrilar;
+- Grade corricular;
 
 # Diagrama de entidades
 ![imagem diagrama de entidades](/docs/diagrama-de-entidades.PNG).
