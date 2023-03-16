@@ -37,5 +37,5 @@
 ![imagem diagrama de entidades](/docs/diagrama-de-entidades.PNG).
 
 # Telas do Sistema (link)
-https://www.figma.com/file/WD7YUdQJ93JcfXTMKqgkno/Gerenciamento-Escolar?node-id=1%3A2&t=pAc6zUJuB21LUEED-1
+(https://www.figma.com/file/WD7YUdQJ93JcfXTMKqgkno/Gerenciamento-Escolar?node-id=1%3A2&t=pAc6zUJuB21LUEED-1)
 
