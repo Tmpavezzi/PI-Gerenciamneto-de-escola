@@ -1,4 +1,4 @@
-# Tema: Gerenciamento de Escola
+# Tema: Gerenciamento de Escolas
 
 [PROJETO INTEGRADOR III - Turma B]
 
