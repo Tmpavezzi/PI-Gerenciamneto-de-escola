@@ -25,6 +25,7 @@
 - Também haverá uma aba ou filtro que irá permitir a visualização das escolas que possuem cursos extracurriculares (inglês, espanhol, francês e etc);
 - Caso o usúario queira conhecer mais sobre a instituição, o sistema o direcionara para o site da própria instituição;
 - O usúario consegue ver a avaliação da instituição, também consegue filtrar para ver quais são melhores avaliadas;
+- O sistema vai ter uma area para que os usúarios possam dar um feedback  do sistema;
 
 # Requisitos não Funcionais:
 
