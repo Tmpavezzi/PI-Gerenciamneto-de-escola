@@ -20,6 +20,8 @@
 # Requisitos Funcionais:
 
 - O sistema vai realizar o cadastro dos funcionários e dos alunos que desejam procurar a instituição para cursar/trabalhar;
+- Ele permite que o usúario posso procurar as instituições da sua escolha por meio de filtro;
+- Caso o usúario queira conhecer mais sobre a instituição, o sistema o direcionara para o site da própria instituição;
 
 # Requisitos não Funcionais:
 
