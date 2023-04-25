@@ -118,7 +118,7 @@ body {
   /*marcando os links para mudar de um formulário para outro */
   .link{
     position: absolute;
-    background: #e1eaeb;
+    
     color: #7f7c7c;
     left: 0px;
     height: 20px;
@@ -127,19 +127,15 @@ body {
     font-size: 16px;
     text-align: right;
     border-top: 1px solid #dbe5e8;
-
     border-radius: 0 0  5px 5px;
   }
   .link a {
     font-weight: bold;
     background: #f7f8f1;
-    padding: 6px;
+    padding: 10px;
     color: rgb(29, 162, 193);
     margin-left: 10px;
     border: none;
-
-
-
   }
   .link a:hover {
     color:black;
@@ -157,11 +153,7 @@ body {
     margin-left: 160px;
     background: linear-gradient(#CBC3C3, rgba(229, 226, 226, 0.959)) ;
     border: none;
-
-
     border-radius: 5px;
-
-
   }
 
     #paracadastro:target ~ .content #cadastro,
