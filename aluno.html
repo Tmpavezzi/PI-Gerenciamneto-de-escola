@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="aluno.css">
+    <title>Aluno</title>
+</head>
+
+<body>
+    <nav class="menu">
+
+        <h1 class="titulo-menu">Sistema de Gerenciamento</h1>
+
+        <ul class="principal">
+
+            <li><a href="professor.html">Professores</a></li>
+
+            <br>
+
+            <li><a href="aluno.html">Alunos </a></li>
+
+            <br>
+
+            <li>Instituições</li>
+
+        </ul>
+
+        <ul class="secundaria">
+
+            <li> <a href="cadastro.html#paralogin"> Login</a></li>
+
+            <br>
+
+            <li> <a href="cadastro.html#paracadastro"> Cadastro</a> </li>
+
+        </ul>
+    </nav>
+
+    <div class="buttons">
+        <h1 class="stud">Aluno</h1>
+        
+            <input type="submit" value="Cadastrar" class="cads">
+            <input type="submit" value="Cancelar" class="cancel">
+        
+    </div>
+
+
+    <main>
+        <form class="informacao-pessoal">
+            <h1 class="infos-pess"> INFORMAÇÕES PESSOAIS</h1>,
+            
+            <label for="nomecompleto">Nome Completo:</label>
+            <input type="text" id="nomecompleto" class="input-padrao" required>
+
+            <label for="sexo">Sexo:</label>
+            <label for="Feminino"> <input type="radio" name="sexo" value="Feminino" id="radio-feminino">Feminino</label>
+
+            <label for="masculino"> <input type="radio" name="sexo" value="masculino"
+                    id="radio-masculino">Masculino</label>
+                <br>
+            <br>
+            <label for="datanescimento">Data de Nascimento</label>
+            <input type="date" id="date">
+            <br>
+
+            <label for="cpf">CPF:</label>
+            <input type="cpf" id="CPF" class="input-padrao" required placeholder="Digite o CPF">
+
+            <label for="rg">RG:</label>
+            <input type="rg" class="input-padrao" required placeholder="Digite o RG"> 
+
+            <label for="orgaoemisor">Orgão Emissor:</label>
+            <input type="text" id="rg" class="input-padrao" required>
+            <br>
+
+            <label for="telefone">Celular:</label>
+            <input type="telefone" id="celular" class="input-padrao" required placeholder="(DDD)00000-0000">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-padrao" required>
+
+        </form>
+
+        <form class="informacao-academica">
+            
+    <div class="info-acad">
+        <h1 class="infos-acd">INFORMAÇÕES ACADEMICAS</h1>
+        <label for="serie">Série:</label>
+        <input type="serie" id="serie" class="input-secundario" required>
+
+        <label for="sala">Sala:</label>
+        <input type="sala" id="sala" class="input-secundario" required>
+
+        <label for="turma">Turma:</label>
+        <input type="turma" id="turma" class="input-secundario" required>
+
+        <h2 class="obs">Observações Academicas</h2>
+
+        <textarea name="observacoes" id="" cols="125" rows="11" class="area-texto"></textarea>
+    </div>
+
+        </form>
+    </main>
+    
+
+
+
+</body>
+
+</html>

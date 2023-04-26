@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu {
+    background-color: rgba(61, 107, 150, 1);
+    font-weight: bold;
+    margin-right: 10px;
+    width: 26%;
+    height: 39em;
+    float: left;
+}
+
+.titulo-menu {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.principal {
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    margin-top: 40%;
+    position: relative;
+}
+
+.secundaria {
+    text-align: center;
+    display: block;
+    margin-top: 40%;
+}
+
+.cads:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/** parte do texto Aluno **/
+.stud {
+    font-size: x-large;
+    position: absolute;
+    width: 50px;
+    height: 29px;
+    left: 380px;
+    top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
+/** botão de cadastrar **/
+.cads{
+    position: relative;
+    width: 165px;
+    height: 40px;
+    left: 520px;
+    top: 22px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 5px;
+    background-color: rgba(91, 124, 254, 1);
+}
+/** botão cancelar **/
+.cancel {
+    position: relative;
+    width: 165px;
+    height: 40px;
+    left: 620px;
+    top: 22px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 5px;
+    background-color: rgba(91, 124, 254, 1);
+}
+
+.infos-pess {
+    text-align: center;
+    padding-top: 15px;
+}
+/**parte do box de informação pessoal**/
+.informacao-pessoal {
+    margin:40px 20px 10px 29px; 
+    border: none;
+    background-color: azure;
+    position: absolute;
+    width: 980px;
+    height: 230px;
+    left: 341px;
+    background: #D9D9D9;
+    border-radius: 9px;
+}
+/**parte de nome, cpf, etc**/
+.informacao-pessoal label {
+    display: inline;
+    font-size: 20px;
+    margin: 10px 20px ;
+    padding: 10px 0 5px;
+    font-size:medium ;
+    position: relative;
+}
+
+/**parte de preenchimento de dados**/
+.input-padrao {
+    padding: 2px 2px;
+    width: 20%;
+    margin-left:-20px;
+    margin-top: 15px;
+}
+
+.info-acad{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.informacao-academica {
+    margin:282px 20px 10px 29px; 
+    border: none;
+    background-color: azure;
+    position: absolute;
+    width: 980px;
+    height: 288px;
+    left: 341px;
+    background: #D9D9D9;
+    border-radius: 9px;
+}
+
+.informacao-academica label {
+    display: inline;
+    font-size: 20px;
+    padding: 10px 0 5px;
+    font-size: medium;
+}
+
+.input-secundario{
+    padding: 2px 10px;
+    width: 20%;
+    margin-left:35px;
+    margin-top: 15px;
+}
+
+.obs{   
+    margin-top: 10px;
+}
+
+.area-texto{
+    margin-top: 15px;
+}
