@@ -15,11 +15,11 @@
 
         <ul class="principal">
 
-            <li>Funcionarios</li>
+          <li><a href="professor.html">Professores</a></li>
 
             <br>
 
-            <li>Alunos</li>
+            <li><a href="aluno.html">Alunos </a></li>
 
             <br>
 
@@ -29,11 +29,11 @@
 
         <ul class="secundaria">
 
-            <li> <a href="#paralogin"> Login</a></li>
+            <li> <a href="cadastro.html#paralogin"> Login</a></li>
 
             <br>
 
-            <li> <a href="#paracadastro"> Cadastro</a> </li>
+            <li> <a href="cadastro.html#paracadastro"> Cadastro</a> </li>
 
         </ul>
 
