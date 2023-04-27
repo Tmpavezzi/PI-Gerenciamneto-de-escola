@@ -55,8 +55,7 @@
 ## Script para acesso ao banco
 
 CREATE TABLE PI {
-	idcadastro  int primary key AUTOINCREMENT, 
-	Nome  varchar(200),
+	Nome  varchar(200) primary key,
 	Email varchar(200),
 	Senha varchar(200)
 }
@@ -66,7 +65,7 @@ VALUES("cadastroum", "cadastro@gmail.com", "123@cadastro");
 
 SELECT * FROM PI;
 
-DELETE FROM PI where idcadastro = 1;
+DELETE FROM PI where Nome = "Enoque" ;
 
 Espero que goste!!
 
