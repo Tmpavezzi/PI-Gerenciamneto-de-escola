@@ -42,3 +42,33 @@
 # Telas do Sistema (link)
 (https://www.figma.com/file/WD7YUdQJ93JcfXTMKqgkno/Gerenciamento-Escolar?node-id=1%3A2&t=pAc6zUJuB21LUEED-1)
 
+# Passos para usabilidade do sistema
+
+- Roda o projeto, e pegue o link gerado no terminal (https://localhost:8080) e abrir o link no browser
+- Preenche as informações e clique no botão cadastrar.
+
+## Para acessar o banco
+
+- Acesse o banco de dados com o link: https://localhost:8080/console/login.jsp
+- Email e senha(ambos): sa e conecte
+
+## Script para acesso ao banco
+
+CREATE TABLE PI {
+	idcadastro  int primary key AUTOINCREMENT, 
+	Nome  varchar(200),
+	Email varchar(200),
+	Senha varchar(200)
+}
+
+INSERT INTO PI(Nome, Email, Senha) 
+VALUES("cadastroum", "cadastro@gmail.com", "123@cadastro");
+
+SELECT * FROM PI;
+
+DELETE FROM PI where idcadastro = 1;
+
+Espero que goste!!
+
+
+
