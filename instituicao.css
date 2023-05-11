@@ -2,7 +2,7 @@
     padding: 10px 10px 10px;
     border: solid 2px;
     position: absolute;
-    left: 455px;
+    left: 406px;
     padding: 10%;
     padding-top: 80px;
     align-items: center;
@@ -28,9 +28,6 @@
     background-color: rgba(0,0,0,.5);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
-
-
-
 
 
 table {
@@ -80,8 +77,6 @@ table tr:nth-child(even) td span {
 }
 
 
-
-
 .teste {
     display: flex;
 }
@@ -100,7 +95,8 @@ table tr:nth-child(even) td span {
 
   .botoes-finais {
     position: absolute;
-    left: 455px;
+    left: 673px;
     padding: 50px;
+    top:502px
   }
   
