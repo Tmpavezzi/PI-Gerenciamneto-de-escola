@@ -53,7 +53,7 @@ body {
     width: 165px;
     height: 40px;
     left: 520px;
-    top: 569px;
+    top:590px;
     border-radius: 5px;
     border: none;
     padding: 2px 5px;
@@ -65,11 +65,21 @@ body {
     width: 165px;
     height: 40px;
     left: 620px;
-    top: 569px;
+    top: 590px;
     border-radius: 5px;
     border: none;
     padding: 2px 5px;
     background-color: rgba(91, 124, 254, 1);
+}
+
+.cads:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: white;
 }
 
 .infos-pess {

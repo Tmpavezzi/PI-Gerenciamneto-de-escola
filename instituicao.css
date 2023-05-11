@@ -93,10 +93,46 @@ table tr:nth-child(even) td span {
     font-size: 13px;
   }
 
-  .botoes-finais {
+  /*.botoes-finais {
     position: absolute;
     left: 673px;
     padding: 50px;
     top:502px
+
+  }*/
+
+  /** botão de cadastrar **/
+  .voltar{
+      position: relative;
+      width: 165px;
+      height: 40px;
+      left: 265px;
+      top:560px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+  /** botão cancelar **/
+  .select {
+      position: relative;
+      width: 165px;
+      height: 40px;
+      left: 370px;
+      top: 560px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+
+  .select:hover {
+      cursor: pointer;
+      color: white;
+  }
+
+  .voltar:hover {
+      cursor: pointer;
+      color: white;
   }
   
