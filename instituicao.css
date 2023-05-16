@@ -2,7 +2,7 @@
     padding: 10px 10px 10px;
     border: solid 2px;
     position: absolute;
-    left: 455px;
+    left: 406px;
     padding: 10%;
     padding-top: 80px;
     align-items: center;
@@ -28,9 +28,6 @@
     background-color: rgba(0,0,0,.5);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
-
-
-
 
 
 table {
@@ -80,8 +77,6 @@ table tr:nth-child(even) td span {
 }
 
 
-
-
 .teste {
     display: flex;
 }
@@ -98,9 +93,46 @@ table tr:nth-child(even) td span {
     font-size: 13px;
   }
 
-  .botoes-finais {
+  /*.botoes-finais {
     position: absolute;
-    left: 455px;
+    left: 673px;
     padding: 50px;
+    top:502px
+
+  }*/
+
+  /** botão de cadastrar **/
+  .voltar{
+      position: relative;
+      width: 165px;
+      height: 40px;
+      left: 265px;
+      top:560px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+  /** botão cancelar **/
+  .select {
+      position: relative;
+      width: 165px;
+      height: 40px;
+      left: 370px;
+      top: 560px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+
+  .select:hover {
+      cursor: pointer;
+      color: white;
+  }
+
+  .voltar:hover {
+      cursor: pointer;
+      color: white;
   }
   

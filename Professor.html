@@ -17,15 +17,15 @@
 
         <ul class="principal">
 
-            <li>Funcionarios</li>
+            <li><a href="Professor.html">Professores</a> </li>
 
             <br>
 
-            <li><a href="Professor.html">Professores </a></li>
+            <li><a href="aluno.html">Alunos </a></li>
 
             <br>
 
-            <li>Instituições</li>
+            <li><a href="instituicao.html">Instituições</a> </li>
 
         </ul>
 
@@ -40,14 +40,7 @@
         </ul>
     </nav>
 
-    <div class="buttons">
-        <h1 class="stud">Professor</h1>
-        
-            <input type="submit" value="Cadastrar" class="cads">
-            <input type="submit" value="Cancelar" class="cancel">
-        
-    </div>
-
+    <div><h1 class="prof">Professor</h1></div>
 
     <main>
         <form class="informacao-pessoal">
@@ -57,9 +50,9 @@
             <input type="text" id="nomecompleto" class="input-padrao" required>
 
             <label for="sexo">Sexo:</label>
-            <label for="Feminino"> <input type="radio" nome="sexo" value="Feminino" id="radio-feminino">Feminino</label>
+            <label for="Feminino"> <input type="radio" name="sexo" value="Feminino" id="radio-feminino">Feminino</label>
 
-            <label for="masculino"> <input type="radio" nome="sexo" value="masculino"
+            <label for="masculino"> <input type="radio" name="sexo" value="masculino"
                     id="radio-masculino">Masculino</label>
                 <br>
             <br>
@@ -83,19 +76,16 @@
             <label for="email">Email:</label>
             <input type="email" id="email" class="input-padrao" required>
 
-        </form>
-
-        <form class="informacao-academica">
             
     <div class="info-acad">
         <h1 class="infos-acd">INFORMAÇÕES ACADEMICAS</h1>
         <label for="formacao">Formação Acadêmica:</label>
         <input type="formacao" id="formacao" class="input-secundario" required>
 
-        <form action="processa_imagem_perfil.php" method="post" enctype="multipart/form-data">
+     <!--   <form action="processa_imagem_perfil.php" method="post" enctype="multipart/form-data">
             <label>Curriculo: <input type="file" name="image"></label>
             <input type="submit" value="Submit">
-        </form>
+        </form> --!>
 
         <h2 class="obs">Experiências Acadêmicas</h2>
 
@@ -104,7 +94,13 @@
 
         </form>
     </main>
-    
+
+    <div class="buttons">
+
+        <input type="submit" value="Cadastrar" class="cads">
+        <input type="submit" value="Cancelar" class="cancel">
+
+    </div>
 
 
 
