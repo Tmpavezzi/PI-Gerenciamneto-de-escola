@@ -2,8 +2,8 @@
     padding: 10px 10px 10px;
     border: solid 2px;
     position: absolute;
-    left: 406px;
-    padding: 10%;
+    left: 430px;
+    padding: 8%;
     padding-top: 80px;
     align-items: center;
     justify-content: center;
@@ -106,8 +106,8 @@ table tr:nth-child(even) td span {
       position: relative;
       width: 165px;
       height: 40px;
-      left: 265px;
-      top:560px;
+      left: 230px;
+      top:59px;
       border-radius: 5px;
       border: none;
       padding: 2px 5px;
@@ -118,8 +118,8 @@ table tr:nth-child(even) td span {
       position: relative;
       width: 165px;
       height: 40px;
-      left: 370px;
-      top: 560px;
+      left: 320px;
+      top: 59px;
       border-radius: 5px;
       border: none;
       padding: 2px 5px;

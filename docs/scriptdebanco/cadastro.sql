@@ -1,13 +1,13 @@
-CREATE TABLE Cadastro {
-	idcadastro  int primary key AUTOINCREMENT, 
-	nome  varchar(200),
-	email varchar(200),
-	senha varchar(200)
-}
+CREATE TABLE CADASTRO (
+    idCadastro INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200),
+    email VARCHAR(200),
+    senha VARCHAR(200),
+);
 
-INSERT INTO Cadastro(nome, email, senha) 
-VALUES("cadastroum", "cadastro@gmail.com", "123@cadastro");
+INSERT INTO CADASTRO (nome, email, senha) 
+VALUES ('João Silva', 'joao.silva@example.com', 'senha123');
 
-SELECT * FROM Cadastro;
+SELECT * FROM CADASTRO;
 
-DELETE FROM Cadastro where idcadastro = 1;
+DELETE FROM CADASTRO where idCadastro = 1;
