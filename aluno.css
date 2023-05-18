@@ -50,7 +50,7 @@ body {
     width: 50px;
     height: 29px;
     left: 380px;
-    top: 24px;
+    top: 10px;
     font-size: 24px;
     font-weight: bold;
 
@@ -135,8 +135,10 @@ body {
 .informacao-academica label {
     display: inline;
     font-size: 20px;
-    padding: 10px 0 5px;
+    padding: -10px 0px 5px;
     font-size: medium;
+
+
 }
 
 .input-secundario{
