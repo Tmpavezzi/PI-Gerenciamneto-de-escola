@@ -1,57 +1,105 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <%@ page contentType="text/html; charset=UTF-8" %>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index_funcionario.css">
+    <title>Professor</title>
+</head>
+
 <body>
-<h2>Create Funcionarios</h2>
+<nav class="menu">
+    <h1 class="titulo-menu">Sistema de Gerenciamento</h1>
 
-<form action="/create-funcionario" method="post">
+    <ul class="principal">
 
-    <label>Funcionarios</label> <br>
-    <label>Nome</label>
-    <input type="text" name="nome" id="nome" value="${param.name}">
-    <br>
-    <label>Sexo</label>
-    <input type="text" name="sexo" id="sexo" value="${param.sexo}">
-    <br>
-    <label>Data Nascimento</label>
-    <input type="text" name="dataNascimento" id="dataNascimento" value="${param.dataNascimento}">
-    <br>
-    <label>Estado Civil</label>
-    <input type="text" name="estadoCivil" id="estadoCivil" value="${param.estadoCivil}">
-    <br>
-    <label>CPF</label>
-    <input type="text" name="cpf" id="cpf" value="${param.cpf}">
-    <br>
-    <label>RG</label>
-    <input type="text" name="rg" id="rg" value="${param.rg}">
-    <br>
-    <label>Orgao Emissor</label>
-    <input type="text" name="orgaoEmissor" id="orgaoEmissor" value="${param.orgaoEmissor}">
-    <br>
-    <label>Celular</label>
-    <input type="text" name="celular" id="celular" value="${param.celular}">
-    <br>
-    <label>Email</label>
-    <input type="text" name="email" id="email" value="${param.email}">
-    <br>
-    <label>Endereco</label>
-    <input type="text" name="endereco" id="endereco" value="${param.endereco}">
-    <br>
-    <label>Cargo</label>
-    <input type="text" name="cargo" id="cargo" value="${param.cargo}">
-    <br>
-    <label>Graduacao</label>
-    <input type="text" name="graduacao" id="graduacao" value="${param.graduacao}">
-    <br>
-    <label>Conhecimento</label>
-    <input type="text" name="conhecimento" id="conhecimento" value="${param.conhecimento}">
-    <br>
-    <label>Observacao</label>
-    <input type="text" name="observacao" id="observacao" value="${param.observacao}">
-    <br>
-    <input type="hidden" name="idFuncionario" id="idFuncionario" value="${param.idFuncionario}">
-    <br>
-    <button type="submit">Save</button>
+        <li><a href="index_funcionario.jsp">Professores</a> </li>
 
-</form>
+        <br>
 
+        <li><a href="index_aluno.jsp">Alunos </a></li>
+
+        <br>
+
+        <li><a href="instituicao.html">Instituições</a> </li>
+
+    </ul>
+
+    <ul class="secundaria">
+
+        <li> <a href="#paralogin"> Login</a></li>
+
+        <br>
+
+        <li> <a href="index.jsp"> Cadastro</a> </li>
+
+    </ul>
+</nav>
+<div><h1 class="prof">Professor</h1></div>
+<main>
+    <form class="informacao-pessoal"method="post" action="/create-funcionario">
+        <br>
+        <h1 class="infos-pess">INFORMAÇÕES PESSOAIS</h1>
+
+        <label for="nomecompleto">Nome Completo:</label>
+        <input type="text" id="nomecompleto" name ="nomecompleto" class="input-padrao" required>
+
+        <label for="sexo">Sexo:</label>
+        <label for="Feminino"> <input type="radio" name="sexo" value="Feminino" id="sexo">Feminino</label>
+
+        <label for="masculino"> <input type="radio" name="sexo" value="masculino" id="sexo">Masculino</label>
+
+        <br>
+        <label for="datanescimento">Data de Nascimento</label>
+        <input type="date" id="date" name ="date">
+
+        <label for="estadoCivil">Estado Civil:</label>
+        <input type="text" id="estadoCivil" name ="estadoCivil" class="input-padrao" required>
+        <br>
+
+        <label for="cpf">CPF:</label>
+        <input type="cpf" id="CPF"name ="CPF" class="input-padrao" required placeholder="Digite o CPF">
+
+        <label for="rg">RG:</label>
+        <input type="rg"name ="rg" class="input-padrao" required placeholder="Digite o RG">
+
+        <label for="orgaoemisor">Orgão Emissor:</label>
+        <input type="text" id="orgaoemisor" name ="orgaoemisor"class="input-padrao" required>
+        <br>
+
+        <label for="telefone">Celular:</label>
+        <input type="telefone" id="celular" name ="celular" class="input-padrao" required placeholder="(DDD)00000-0000">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name ="email" class="input-padrao" required>
+
+        <br>
+        <label for="endereco">Endereco:</label>
+        <input type="text" id="endereco" name ="endereco" class="input-padrao" required>
+
+
+            <h1 class="infos-pess">INFORMAÇÕES COMPLEMENTARES</h1>
+            <label for="cargo">Cargo:</label>
+            <input type="text" id="cargo" name="cargo" class="input-padrao" required>
+
+            <label for="graduacao">Graduação:</label>
+            <input type="text" id="graduacao" name="graduacao" class="input-padrao" required>
+
+            <br>
+            <label for="conhecimento">Área do Conhecimento:</label>
+            <input type="text" id="conhecimento" name="conhecimento" class="input-padrao" required>
+
+            <h2 class="infos-pess">OBSERVAÇÕES</h2>
+
+            <textarea name="observacoes" id="" cols="100" rows="8" class="area-texto"></textarea>
+
+        <input type="submit" value="Cadastrar" class="cads">
+        <input type="submit" value="Cancelar" class="cancel">
+    </form>
+</main>
 </body>
 </html>

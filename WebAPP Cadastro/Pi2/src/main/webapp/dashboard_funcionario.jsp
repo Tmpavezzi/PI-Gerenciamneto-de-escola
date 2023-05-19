@@ -49,22 +49,7 @@
                         <input type="hidden" id="idFuncionario" name="idFuncionario" value="${funcionario.idFuncionario}">
                         <button type="submit">Delete</button>
                         <span> | </span>
-                        <a href="index.jsp?idFuncionario=${funcionario.idFuncionario}
-                                           &name=${funcionario.nome}
-                                           &sexo=${funcionario.sexo}
-                                           &dataNascimento=${funcionario.dataNascimento}
-                                           &estadoCivil=${funcionario.estadoCivil}
-                                           &cpf=${funcionario.cpf}
-                                           &rg=${funcionario.rg}
-                                           &orgaoEmissor=${funcionario.orgaoEmissor}
-                                           &celular=${funcionario.celular}
-                                           &email=${funcionario.email}
-                                           &endereco=${funcionario.endereco}
-                                           &cargo=${funcionario.cargo}
-                                           &graduacao=${funcionario.graduacao}
-                                           &conhecimento=${funcionario.conhecimento}
-                                           &observacao=${funcionario.observacao}
-                        ">Update</a>
+                        <a href="index.jsp?idFuncionario=${funcionario.idFuncionario}&name=${funcionario.nome}&sexo=${funcionario.sexo}&dataNascimento=${funcionario.dataNascimento}&estadoCivil=${funcionario.estadoCivil}&cpf=${funcionario.cpf} &rg=${funcionario.rg}&orgaoEmissor=${funcionario.orgaoEmissor}&celular=${funcionario.celular}&email=${funcionario.email}&endereco=${funcionario.endereco}&cargo=${funcionario.cargo}&graduacao=${funcionario.graduacao}&conhecimento=${funcionario.conhecimento}&observacao=${funcionario.observacao}">Update</a>
                     </form>
                 </td>
             </tr>

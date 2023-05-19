@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page contentType="text/html; charset=UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <title>Aluno</title>
@@ -49,22 +50,7 @@
                         <input type="hidden" id="idAluno" name="idAluno" value="${aluno.idAluno}">
                         <button type="submit">Delete</button>
                         <span> | </span>
-                        <a href="index_aluno.jsp?idAluno=${aluno.idAluno}
-                                           &name=${aluno.nome}
-                                           &sexo=${aluno.sexo}
-                                           &dataNascimento=${aluno.dataNascimento}
-                                           &estadoCivil=${aluno.estadoCivil}
-                                           &cpf=${aluno.cpf}
-                                           &rg=${aluno.rg}
-                                           &orgaoEmissor=${aluno.orgaoEmissor}
-                                           &celular=${aluno.celular}
-                                           &email=${aluno.email}
-                                           &endereco=${aluno.endereco}
-                                           &serie=${aluno.serie}
-                                           &sala=${aluno.sala}
-                                           &turma=${aluno.turma}
-                                           &observacao=${aluno.observacao}
-                        ">Update</a>
+                        <a href="index_aluno.jsp?idAluno=${aluno.idAluno}&name=${aluno.nome}&sexo=${aluno.sexo} &dataNascimento=${aluno.dataNascimento}&estadoCivil=${aluno.estadoCivil}&cpf=${aluno.cpf}&rg=${aluno.rg}&orgaoEmissor=${aluno.orgaoEmissor}&celular=${aluno.celular}&email=${aluno.email}&endereco=${aluno.endereco}&serie=${aluno.serie}&sala=${aluno.sala}&turma=${aluno.turma}&observacao=${aluno.observacao}">Update</a>
                     </form>
                 </td>
             </tr>

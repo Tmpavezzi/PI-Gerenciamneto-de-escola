@@ -27,11 +27,7 @@
                         <input type="hidden" id="idCadastro" name="idCadastro" value="${cadastro.idCadastro}">
                         <button type="submit">Delete</button>
                         <span> | </span>
-                        <a href="index.jsp?idCadastro=${cadastro.idFuncionario}
-                                           &name=${cadastro.nome}
-                                           &email=${cadastro.email}
-                                           &senha=${cadastro.senha}
-                        ">Update</a>
+                        <a href="index.jsp?idCadastro=${cadastro.idFuncionario}&name=${cadastro.nome}&email=${cadastro.email}&senha=${cadastro.senha}">Update</a>
                     </form>
                 </td>
             </tr>

@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@ body {
 }
 
 .menu {
+    position: fixed;
     background-color: rgba(61, 107, 150, 1);
     font-weight: bold;
     margin-right: 10px;
@@ -46,30 +48,29 @@ body {
 
 
 }
-/** botão de cadastrar **/
-.cads{
+.cads {
     position: relative;
-    width: 165px;
-    height: 40px;
     left: 520px;
-    top:48px;
+    top: 15px;
     border-radius: 5px;
     border: none;
-    padding: 2px 5px;
+    padding: 10px 18px;
     background-color: rgba(91, 124, 254, 1);
+    margin-left: 150px;
 }
+
 /** botão cancelar **/
 .cancel {
     position: relative;
-    width: 165px;
-    height: 40px;
-    left: 620px;
-    top: 48px;
+    left: 520px;
+    top: 15px;
     border-radius: 5px;
     border: none;
-    padding: 2px 5px;
+    padding: 10px 18px;
     background-color: rgba(91, 124, 254, 1);
+    margin-left: 20px;
 }
+
 
 .cads:hover {
     cursor: pointer;
@@ -87,12 +88,12 @@ body {
 }
 /**parte do box de informação pessoal**/
 .informacao-pessoal {
-    margin:80px 20px 10px 29px;
+    margin:60px 20px 10px 10px;
     border: none;
     background-color: azure;
     position: absolute;
-    width: 980px;
-    height: 680px;
+    width: 970px;
+    height: 570px;
     left: 341px;
     background: #D9D9D9;
     border-radius: 9px;
@@ -101,7 +102,7 @@ body {
 .informacao-pessoal label {
     display: inline;
     font-size: 20px;
-    margin: 10px 30px ;
+    margin: 10px 20px ;
     padding: 10px 0 5px;
     font-size:medium ;
     position: relative;
@@ -111,6 +112,7 @@ body {
 .input-padrao {
     padding: 2px 2px;
     width: 20%;
+    margin-left:-20px;
     margin-top: 15px;
 }
 
@@ -119,6 +121,18 @@ body {
     padding-top: 15px;
 }
 
+/*.informacao-academica {
+    margin:282px 20px 10px 29px;
+    border: none;
+    background-color: azure;
+    position: absolute;
+    width: 980px;
+    height: 288px;
+    left: 341px;
+    background: #D9D9D9;
+    border-radius: 9px;
+}
+*/
 .informacao-academica label {
     display: inline;
     font-size: 20px;
@@ -126,10 +140,18 @@ body {
     font-size: medium;
 }
 
+.input-secundario{
+    padding: 2px 0px;
+    width: 20%;
+    margin-left:35px;
+    margin-top: 15px;
+}
+
 .obs{
     margin-top: 15px;
 }
 
 .area-texto{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
 }
