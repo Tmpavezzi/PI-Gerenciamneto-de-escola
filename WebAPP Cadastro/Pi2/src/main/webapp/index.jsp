@@ -66,24 +66,25 @@
                 <form method="post" action="/create-cadastro">
                     <h1 class="titulo-cad">Cadastro</h1>
                     <p>
-                        <label for="nome_cad">Seu nome</label>
-                        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Seu nome" />
+                        <label for="nome">Seu nome</label>
+                        <input type="text" id="nome" name="nome" required="required" value="${cadastro.nome}" />
                     </p>
 
                     <p>
-                        <label for="email_cad">Seu e-mail</label>
-                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="seuemail@dominio.com"/>
+                        <label for="email">Seu e-mail</label>
+                        <input id="email" name="email" required="required" type="email" value="${cadastro.email}" placeholder="seuemail@dominio.com"/>
                     </p>
 
                     <p>
-                        <label for="senha_cad">Sua senha</label>
-                        <input id="senha_cad" name="senha_cad" required="required" type="password" >
+                        <label for="senha">Sua senha</label>
+                        <input id="senha" name="senha" required="required" type="password" value="${cadastro.senha}" >
                     </p>
+
+                    <input type="hidden" id="idCadastro" name="idCadastro" value="${param.idCadastro}">
 
                     <p>
                         <input type="submit" value="Cadastrar"/>
                     </p>
-
                         <p class="link">Já tem conta?<a href="#paralogin"> Ir para Login </a></p>
                 </form>
             </div>
