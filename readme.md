@@ -11,13 +11,13 @@
 - Thiago Pavezzi
 
 # Funcionalidades:
-- Cadastro de funcionários(professores), alunos e instituições.
+- Cadastro de funcionários(professores), alunos.
 - Listagem de funcionários(professores), alunos e instituições.
 
 # Requisitos Funcionais:
 - O sistema vai realizar o cadastro dos funcionários e dos alunos que desejam procurar a instituição para cursar/trabalhar;
 - Gerenciamento de professores: o sistema é capaz de gerenciar as informações pessoais e de contato dos professores;
-- Ele permite que o usúario possa procurar as instituições da sua escolha;
+- Ele permite que o usúario possa procurar as instituições da sua escolha por meio do curso;
 
 # Requisitos não Funcionais:
 - Sistema só funcionará no Windows;
@@ -42,17 +42,57 @@
 
 CREATE TABLE CADASTRO {
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-	nome  varchar(200) primary key,
+	nome  varchar(200),
 	email varchar(200),
 	senha varchar(200)
 }
 
-INSERT INTO CADASTRO(nome, email, senha) 
-VALUES("cadastroum", "cadastro@gmail.com", "123@cadastro");
+CREATE TABLE ALUNO {
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	nome  varchar(200),
+	sexo varchar(200),
+	dataNascimento varchar(200),
+	estadoCivil varchar(200),
+	cpf varchar(200),
+	rg varchar(200),
+	orgaoEmissor varchar(200),
+	celular varchar(200),
+	email varchar(200),
+	endereco varchar(200),
+	serie varchar(200),
+	sala varchar(200),
+	turma varchar(200),
+	observacao varchar(200)
+	
+}
 
-SELECT * FROM CADASTRO;
+CREATE TABLE FUNCIONARIO {
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	nome  varchar(200),
+	sexo varchar(200),
+	dataNascimento varchar(200),
+	estadoCivil varchar(200),
+	cpf varchar(200),
+	rg varchar(200),
+	orgaoEmissor varchar(200),
+	celular varchar(200),
+	email varchar(200),
+	endereco varchar(200),
+	cargo varchar(200),
+	graduacao varchar(200),
+	conhecimento varchar(200),
+	observacao varchar(200)
+	
+}
 
-DELETE FROM CADASTRO where id = 1;
+CREATE TABLE INSTITUICOES {
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	nome  varchar(200),
+	curso varchar(200),
+	localizacao varchar(200)
+}
+
+
 
 ## Executando o projeto:
 - Após a criação da tabela, executar o tomcat7:run na aba do maven, no intellij.
