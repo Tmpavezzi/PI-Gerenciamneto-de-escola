@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Professor.css">
+    <title>Professor</title>
+</head>
+
+<body>
+    <nav class="menu">
+
+        <h1 class="titulo-menu">Sistema de Gerenciamento</h1>
+
+        <ul class="principal">
+
+            <li><a href="Professor.html">Professores</a> </li>
+
+            <br>
+
+            <li><a href="aluno.html">Alunos </a></li>
+
+            <br>
+
+            <li><a href="instituicao.html">Instituições</a> </li>
+
+        </ul>
+
+        <ul class="secundaria">
+
+            <li> <a href="#paralogin"> Login</a></li>
+
+            <br>
+
+            <li> <a href="#paracadastro"> Cadastro</a> </li>
+
+            <br>
+
+            <li> <a href="Buscar.html#parabuscar"> Buscar</a> </li>
+
+        </ul>
+    </nav>
+
+    <div><h1 class="prof">Professor</h1></div>
+
+    <main>
+        <form class="informacao-pessoal">
+            <h1 class="infos-pess"> INFORMAÇÕES PESSOAIS</h1>,
+            
+            <label for="nomecompleto">Nome Completo:</label>
+            <input type="text" id="nomecompleto" class="input-padrao" required>
+
+            <label for="sexo">Sexo:</label>
+            <label for="Feminino"> <input type="radio" name="sexo" value="Feminino" id="radio-feminino">Feminino</label>
+
+            <label for="masculino"> <input type="radio" name="sexo" value="masculino"
+                    id="radio-masculino">Masculino</label>
+
+       <br>
+            <label for="datanascimento">Data de Nascimento: </label>
+            <input type="date" id="date">
+
+            <label for"estadocivil">Estado Civil:</label>
+            <input type="text" id="estadocivil" class="input-padrao" required>
+            <br>
+
+            <label for="cpf">CPF:</label>
+            <input type="cpf" id="CPF" class="input-padrao" required placeholder="Digite o CPF">
+
+            <label for="rg">RG:</label>
+            <input type="rg" class="input-padrao" required placeholder="Digite o RG"> 
+
+            <label for="orgaoemisor">Orgão Emissor:</label>
+            <input type="text" id="rg" class="input-padrao" required>
+            <br>
+
+            <label for="telefone">Celular:</label>
+            <input type="telefone" id="celular" class="input-padrao" required placeholder="(DDD)00000-0000">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-padrao" required>
+
+                <br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="endereco" id="address" class="input-padrao" required>
+
+            
+    <div class="info-acad">
+        <h1 class="infos-acd">INFORMAÇÕES ACADEMICAS</h1>
+
+        <label for="cargo">Cargo:</label>
+        <input type="cargo" id="cargo" class="input-secundario" required>
+
+        <label for="graduacao">Graduação:</label>
+        <input type="graduacao" id="graduacao" class="input-secundario" required>
+
+        <br>
+
+        <label for="area">Área do Conhecimento:</label>
+        <input type="area" id="area" class="input-secundario" required>
+
+     <!--   <form action="processa_imagem_perfil.php" method="post" enctype="multipart/form-data">
+            <label>Curriculo: <input type="file" name="image"></label>
+            <input type="submit" value="Submit">
+        </form> --!>
+
+        <h2 class="obs">Experiências Acadêmicas</h2>
+
+        <textarea name="experiencias" id="" cols="125" rows="9" class="area-texto"></textarea>
+    </div>
+            <div class="buttons">
+
+                <input type="submit" value="Cadastrar" class="cads">
+                <input type="submit" value="Cancelar" class="cancel">
+
+            </div>
+        </form>
+    </main>
+
+
+
+
+
+</body>
+
+</html>
