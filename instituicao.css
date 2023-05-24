@@ -1,0 +1,138 @@
+#instituicao{
+    padding: 10px 10px 10px;
+    border: solid 2px;
+    position: absolute;
+    left: 430px;
+    padding: 8%;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: #D9D9D9;
+}
+
+.tabela{
+    border: 2px solid;
+    position: center;  
+    height: 180px; 
+    overflow: auto;  
+  }
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+td {
+    border: 1px solid;
+    border-left-width: 0;
+    min-width: 120px;
+    height: 18px;
+}
+
+th {
+    border: 1px solid;
+    border-left-width: 0;
+    min-width: 120px;
+    height: 18px;
+    background-color: #3D6B96;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+table tr td span {
+    display:block;
+    background-color:white;
+    padding:5px 5px 0 5px;
+}
+
+table tr:nth-child(even) td span {
+    background-color:#ccc; 
+}
+
+
+.teste {
+    display: flex;
+}
+  
+.esquerda, .direita {
+    flex-basis: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  /*.botoes-finais {
+    position: absolute;
+    left: 673px;
+    padding: 50px;
+    top:502px
+
+  }*/
+
+  /** botão de cadastrar **/
+  .voltar{
+      position: relative;
+      width: 165px;
+      height: 40px;
+      left: 230px;
+      top:59px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+  /** botão cancelar **/
+  .select {
+      position: relative;
+      width: 165px;
+      height: 40px;
+      left: 320px;
+      top: 59px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+
+  .select:hover {
+      cursor: pointer;
+      color: white;
+  }
+
+  .voltar:hover {
+      cursor: pointer;
+      color: white;
+  }
+  

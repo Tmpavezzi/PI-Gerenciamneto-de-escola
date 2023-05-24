@@ -1,0 +1,180 @@
+#buscar{
+    border: solid 2px;
+    position: absolute;
+    left: 380px;
+    padding: 65px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 150px;
+    background: #D9D9D9;
+}
+
+.busca {
+    font-size: x-large;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.tabela{
+    
+    border: 2px solid;
+    position: relative;  
+    height: 200px; 
+    overflow: scroll;  
+    margin-left: 35px;
+  }
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+#box-busca {
+    display: center;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    height: 50px;
+    float: right;
+    position: relative;
+}
+
+.btn-busca{
+    border: 1px none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3D6B96;
+    margin-left: 59px;
+    margin-top: 5px;
+
+}
+
+
+
+
+.esquerda {
+    margin-top: 10px;
+    margin-left: 200px;
+
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+td {
+    border: 1px solid;
+    border-left-width: 0;
+    min-width: 120px;
+    height: 18px;
+}
+
+th {
+    border: 1px solid;
+    border-left-width: 0;
+    min-width: 550px;
+    height: 18px;
+    background-color: #3D6B96;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+table tr td span {
+    display:block;
+    background-color:white;
+    padding:5px 5px 0 5px;
+}
+
+table tr:nth-child(even) td span {
+    background-color:#ccc; 
+}
+
+
+.teste {
+    display: flex;
+}
+  
+.esquerda, .direita {
+    flex-basis: 25%;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .botoes-finais {
+    position: absolute;
+    left: 673px;
+    padding: 50px;
+    top:502px
+
+  }
+
+ .voltar{
+      position: static;
+      margin-top: 250px;
+      margin: 90px;
+      width: 165px;
+      height: 40px;
+      left: 230px;
+      top:59px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+  
+  .select {
+      position:static;
+      width: 165px;
+      height: 40px;
+      left: 400px;
+      top: 59px;
+      border-radius: 5px;
+      border: none;
+      padding: 2px 5px;
+      background-color: rgba(91, 124, 254, 1);
+  }
+
+  .select:hover {
+      cursor: pointer;
+      color: white;
+  }
+
+  .voltar:hover {
+      cursor: pointer;
+      color: white;
+  }
+  
