@@ -40,14 +40,14 @@
 
 ## Script criar tabela no banco
 
-CREATE TABLE CADASTRO {
+CREATE TABLE CADASTRO (
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
 	nome  varchar(200),
 	email varchar(200),
 	senha varchar(200)
-}
+)
 
-CREATE TABLE ALUNO {
+CREATE TABLE ALUNO (
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
 	nome  varchar(200),
 	sexo varchar(200),
@@ -64,9 +64,9 @@ CREATE TABLE ALUNO {
 	turma varchar(200),
 	observacao varchar(200)
 	
-}
+)
 
-CREATE TABLE FUNCIONARIO {
+CREATE TABLE FUNCIONARIO (
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
 	nome  varchar(200),
 	sexo varchar(200),
@@ -83,14 +83,14 @@ CREATE TABLE FUNCIONARIO {
 	conhecimento varchar(200),
 	observacao varchar(200)
 	
-}
+)
 
-CREATE TABLE INSTITUICOES {
+CREATE TABLE INSTITUICOES (
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
 	nome  varchar(200),
 	curso varchar(200),
 	localizacao varchar(200)
-}
+)
 
 
 
